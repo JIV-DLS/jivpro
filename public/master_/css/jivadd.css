@@ -1,0 +1,59 @@
+.Modifier-window
+{
+  cursor: pointer;
+}
+
+.select
+{
+  background-color: skyblue;
+    cursor: pointer;
+}
+.closable
+{
+	font-size: 1.2em;font-weight: bold;text-align: left;position: absolute;right: 13px;
+}
+.session
+{
+  background: green;
+  color:white;
+}
+.separation
+{
+  clear: both;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 250px;
+  height: 200px;
+  width: 5px;
+  background: silver;
+}
+.all-client-session
+{
+  max-height: 550px;
+  overflow-y: scroll;
+  overflow-x:none; 
+}
+tr[class="client odd"]:hover,tr[class="client even"]:hover
+{
+  background: silver;
+  cursor:pointer;
+}
+tr[class="client odd session"]:hover,tr[class="client even session"]:hover
+{
+  background: gray;
+  cursor:pointer;
+}
+.closable:hover
+{
+  cursor: pointer;
+  color:red;
+}
+
+@media screen and (max-width: 750px)
+{
+  .Info
+  {
+    display: none;
+  }
+
+}

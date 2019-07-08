@@ -1,0 +1,16 @@
+@extends('.site/layout/contenu')
+
+@section('page')
+    @include('.site/layout/slide')
+    @include('.site/layout/home/ProfessionnalBuilde')
+    @include('.site/layout/about/propos')
+    @include('.site/layout/home/WhatWeAre')
+    @include('.site/layout/about/features')
+    @include('.site/layout/home/services')
+    @include('.site/layout/Our_Team')
+    @include('.site/layout/home/OurAchievements')
+    @include('.site/layout/home/Testimonials')
+    @include('.site/layout/service/Featured_Works')
+    @include('.site/layout/home/LatestBlog')
+    @include('.site/layout/home/Parteners')
+@endsection

@@ -1,0 +1,115 @@
+
+.progress-bar {
+
+  position: relative;
+
+  height: 180px;
+
+  width: 180px;
+  background: white;
+/*
+background: '#b3cef6',
+
+// progress bar color
+progressColor: '#4b86db',
+
+// percentage data to present
+// 75 = 75%
+percent: 75,
+
+// animation speed
+duration: 1800
+*/
+
+}
+
+.progress-bar div {
+
+  position: absolute;
+
+  height: 170px;
+
+  width: 170px;
+
+  border-radius: 50%;
+
+}
+
+.progress-bar div span {
+
+  position: absolute;
+
+  font-family: Arial;
+
+  font-size: 35px;
+
+  line-height: 140px;
+
+  height: 140px;
+
+  width: 140px;
+
+  left: 15px;
+
+  top: 15px;
+
+  text-align: center;
+  color: skyblue;
+
+  border-radius: 50%;
+
+  background-color: white;
+
+}
+
+.progress-bar .background { background-color: white; }
+
+.progress-bar .rotate {
+
+  clip: rect(0 90px 180px 0);
+
+  background-color: red;
+
+}
+
+.progress-bar .left {
+
+  clip: rect(0 90px 180px 0);
+
+  opacity: 1;
+
+  background-color: red;
+
+}
+
+ 
+
+.progress-bar .right {
+
+  clip: rect(0 90px 180px 0);
+
+  transform: rotate(180deg);
+
+  opacity: 0;
+
+  background-color: pink;
+
+}
+
+ 
+
+@keyframes
+
+toggle {  0% {
+
+ opacity: 0;
+
+}
+
+ 90% {
+
+ opacity: 1;
+
+}
+
+}
